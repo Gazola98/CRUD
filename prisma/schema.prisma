@@ -16,8 +16,8 @@ datasource db {
 model User {
   name String @id @default(uuid())
   email String
-  age Int
-  cpf Int
+  age String
+  cpf String
 
   @@map("users")
 }
